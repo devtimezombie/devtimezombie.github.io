@@ -1,0 +1,71 @@
+{
+    "In-School":[
+        {
+            "Projects":[
+                {"name":"UFO Repulsion", "url":"https://devtimezombie.itch.io/ufo-repulsion"},
+                {"name": "MLG Breakout", "url": "https://www.youtube.com/watch?v=FZfkdmIs9Uo"},
+                {"name": "Capital Punishment", "url": "https://www.youtube.com/watch?v=u6o_k5rMNVI"},
+                {"name":"Not Mushroom", "url":"https://devtimezombie.itch.io/not-mushroom"},
+                {"name":"A Simple Esc Room", "url":"https://devtimezombie.itch.io/simple-esc-room"},
+                {"name":"Godsend", "url":"https://coleycaverley.itch.io/godsend"}
+            ]
+        },
+        {
+            "Jams":[
+                {"name": "Adrift", "url": "https://www.youtube.com/watch?v=XSU-BhO5TRc"},                
+                {"name":"Mined the Gap", "url":"https://devtimezombie.itch.io/mined-the-gap"}
+            ]
+        }        
+    ],
+    "Jams":[
+        {"name":"Do You Fight the Bear?", "url": "https://devtimezombie.itch.io/do-you-fight-the-bear"},
+        {"name": "My Friend R Dum And So Is I", "url": ""},
+        {"name":"A lil campfire", "url": "https://devtimezombie.itch.io/a-lil-campfire"}
+    ],
+    "Adknown":[
+        "Pool is Cool",
+        "Penguin Climber",
+        "Brain Squared", 
+        "High Speed Heist",
+        "Xiq",
+        "Big Pig Ranch",
+        "Kawaii Claw Machine",
+        "Stockade",
+        "Ghost Doggo Graveyard",
+        "Dunk Knights",
+        "Endless Chickens",
+        "Aces Fly",
+        "Veggie Farm Frenzie",
+        "Hydroplane",
+        "Song Pong",
+        "Bullet Cavern",
+        "Nicer Slicer",
+        "Spin Board",
+        "Let's Get Kraken",
+        "Thunder Tap",
+        "Duckling Mania",
+        "Rock the Bass"
+    ],
+    "Personal":[
+        {"name":"UFO Repulsion Redux", "url":"https://devtimezombie.itch.io/ufo-repulsion-redux"}
+    ],
+    "Experimental":[
+        {
+            "sprint week": [
+                "the halloween board game from year 1",
+                "Aquaducts, the team based pipemania",
+                "the hybrid real life and game king tag",
+                "the multiplayer social blending in game"
+            ]
+        },
+        {
+            "other":
+            [
+                "Gum Racer",
+                "the leap motion kid stacked punchout",
+                "the reflection jam game",
+                "the newfie fae forest adventure"
+            ]
+        }
+    ]
+}
