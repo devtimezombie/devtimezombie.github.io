@@ -1,223 +1,364 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Daniel Praymayer | Portfolio</title>
+        <title>Vale Praymayer | Portfolio</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/additionalStyle.css" rel="stylesheet" />
+        <link href="/css/styles.css" rel="stylesheet" />
+        <link href="/css/additionalStyle.css" rel="stylesheet" />
+        <link href="/assets/fonts/opensans.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-                <div class="container">
-                    <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">Daniel Praymayer</a>
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        Menu
-                        <i class="fas fa-bars ml-1"></i>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav text-uppercase ml-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Experience
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item js-scroll-trigger" href="#inspectar">InspectAR</a>
-                                    <a class="dropdown-item js-scroll-trigger" href="#adknown">Adknown</a>
-                                    <a class="dropdown-item js-scroll-trigger" href="#sheridan">Education</a>
-                                </div>
-                            </li>
-                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="/index.html#page-top">Vale Praymayer</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Experience </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item js-scroll-trigger" href="#inspectar">InspectAR</a>
+                                <a class="dropdown-item js-scroll-trigger" href="#adknown">Adknown</a>
+                                <a class="dropdown-item js-scroll-trigger" href="#sheridan">Education</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/subpages/resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
         <!-- Masthead-->
-            <header class="masthead">
-                <div class="container">
-                    <div class="masthead-subheading">UX | UI | Unity3D</div>
-                    <div class="masthead-heading text-uppercase"><span style="font-size: 4vw; line-height: 2.5vw;">User-first software development</span></div>
-                </div>
-            </header>
-            <div id="portfolio"></div>
-        
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-heading text-uppercase"><span style="font-size: 4vw; line-height: 2.5vw">User-first software engineering</span></div>
+                <div class="masthead-subheading">SAAS | Websites | Games</div>
+            </div>
+        </header>
+        <div id="portfolio"></div>
+
         <div class="accordion" id="portfolioAccordion" data-spy="scroll">
             <!-- Inspectar-->
-                <section class="page-section card" id="inspectar">
-                    <div class="container">
-                        <h2 class="section-heading text-center">Software Engineer - Cadence Design Systems</h2>
-                        <div class="row">
-                            <div class="col-4">
-                                <div style="display: flex; justify-content: center;  align-items: center; "><img class="rounded img-fluid" style="width: 100%; height: auto;" src="assets/img/portfolio/inspectar-thumbnail.jpg" alt="" /></div>
-                            </div>
-                            <div class="col-8">
-                                <h4 class="section-subheading text-muted">InspectAR app UX++</h4>
-                                <p class="text-muted">A multiplatform augmented reality app for visualizing information on circuit boards. 
-                                I continue to improve the UI as the app life cycle continues.
-                                </p>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInspectar" aria-expanded="false" aria-controls="collapseInspectar">
-                                    More <i class="fas fa-angle-double-down ml-1"></i>
-                                </button>
-                            </div>
+            <section class="page-section card" id="inspectar">
+                <div class="container">
+                    <h2 class="section-heading text-center">InspectAR - Cadence Design Systems</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <div style="display: flex; justify-content: center; align-items: center"><img class="rounded img-fluid" style="width: 100%; height: auto" src="assets/img/portfolio/inspectar-thumbnail.jpg" alt="" /></div>
                         </div>
+                        <div class="col-8 heading-desc">
+                            <h4 class="section-subheading text-muted">Lead Software Engineer | 2020 - 2026</h4>
+                            <p class="text-muted">An augmented reality circuit board debugging app. Improved look, functionality, performance, and shareholder value.</p>
+                            <p class="text-muted">Platforms: Windows. Previously MacOS, Android, iOS</p>
+                            <p class="text-muted" style="font-style: italic">C#, Unity3D, Git, Graphql, Figma, Go, PostgreSQL</p>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInspectar" aria-expanded="false" aria-controls="collapseInspectar">Summary <i class="fas fa-angle-double-down ml-1"></i></button>
+                            <!--<a class="btn btn-outline-primary" href="/subpages/inspectar.html">Full Writeup <i class="fas fa-angle-double-right ml-1"></i></a>-->
+                        </div>
+                    </div>
 
-                        <div class="collapse" id="collapseInspectar" data-parent="#portfolioAccordion">
-                            <br/>
-                            <div class="card card-body">
-                                <div style="width:60%; margin:auto; margin-bottom: 1rem;"><div class="video-container"><iframe src="https://www.youtube.com/embed/xvuIUcGHvSs?rel=0" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe></div></div>
-                                <h4>Context</h4>
-                                <p><a href="https://www.inspectar.com/">InspectAR</a> (originally by the company of the same name) takes the electronic design automation (EDA) design files for printed circuit boards (PCB's) and calibrates those designs to a physical board. 
-                                Users can then overlay the information they need directly onto the board via AR to aid debug and repair. That info is augmented through component datasheets and collaboration tools.
-                                Available on PC/Mac/Android/iOS, used by hobbyists and Fortune 500 company engineers alike. 
-                                
-                                <p>I was hired by InspectAR around March 2020. InspectAR was aquired by Cadence in August 2020.
-                                
-                                <h4>Responsiblities</h4>
-                                <p>
-                                <ul>
-                                    <li><span style="font-weight: bold">UX Design</span> - Everything I make is first designed around the user experience. How can I convey the usage and purpose of a tool without text? How can I decrease the time between trying to find a tool and using it.
-                                    How would a user interpret this information, seeing as they don't know how it works yet? I use user stories to evaluate how the needs of our clientele could be met within the tool.          
-                                    </li>
-                                    <li><span style="font-weight: bold">UI Design</span> - Planned out and implemented the version 2.0 UI - made to take advantage of the desktop experience and maximize the screen space on mobile. I plan how new features will look, and improve the features we already have (beyond just the application).  </li>
-                                    <li><span style="font-weight: bold">Programming</span> - Using my years of Unity3D experience, I program the UI for the application and make additions to the base functionaliy. Outside the app, I've programmed some of the user-facing features for our web application.</li>
-                                    <li><span style="font-weight: bold">Teamwork</span> - I continuously support the work of our marketing/customer service team through programming and even script editing expertise.
-                                </ul>
-                                <p style="text-align:center;"><a class="btn btn-primary" href="https://www.inspectar.com/" target="_blank" role="button">InspectAR App Website</a>
+                    <div class="collapse" id="collapseInspectar" data-parent="#portfolioAccordion">
+                        <br />
+                        <div class="card card-body">
+                            <div style="width: 60%; margin: auto; margin-bottom: 1rem">
+                                <div class="video-container"><iframe title="inspectar demo" src="https://www.youtube.com/embed/xvuIUcGHvSs?rel=0" allow="autoplay; encrypted-media;" allowfullscreen></iframe></div>
+                                <!-- https://www.youtube.com/watch?v=Fyc_Wu8VQts inspectar in 30sec -->
                             </div>
+                            <h4 class="text-muted">About the Product</h4>
+                            <p>
+                                <a href="https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/inspectar.html">InspectAR</a> (originally by the company of the same name) takes the electronic design automation (EDA) design files for printed
+                                circuit boards (PCB's) and calibrates those designs to a physical board. Users can then overlay the information they need directly onto the board via AR to aid debug and repair. That info is augmented through component
+                                datasheets and collaboration tools. Available on PC (previously also on Mac/Android/iOS), used by hobbyists and Fortune 500 company engineers alike.
+                            </p>
+
+                            <h4>Major Contributions</h4>
+                            <ul>
+                                <li>
+                                    <span class="entryName">Version 2.0 UI Revamp</span> - Completely reworked the UI to be modern and conform to platform design sensibilities. I made a dedicated UI for desktop mode, paying attention to expected button
+                                    dimensions, information density, and subwindow paradigms unavailable on mobile. I’m not an electrical engineer, so this process included team member consultation, independent research, modeling from the original
+                                    framework, figma mockups with reviews. Major features required iconography, some of which I created fresh.
+                                </li>
+                                <li>
+                                    <span class="entryName">Attachments</span> - Allows users to append component data sheets, diagrams, and other documentation to a projects. I was in charge of a fullstack implementation: Data model design, a database
+                                    migration script, additional REST API’s in golang and C# for CRUD operations, and client UI.
+                                </li>
+                                <li>
+                                    <span class="entryName">Issue Management</span> - Allows reporting of problems and solutions for a run of circuit boards. Data model had to balance ease of filtration and retrieval within database but have the right
+                                    allowances for customers to define their workflow’s trackables. Furthermore, client-side rendering and CRUD GUI had to be similarly comprehensive. I offered numerous possible implementations at different levels of
+                                    scope, covering ambiguities in the Product team’s presentations.
+                                </li>
+                            </ul>
+                            <h4>Skills Demonstrated</h4>
+                            <ul>
+                                <li>
+                                    <span class="entryName">UX Design</span> - Every feature was designed around how an end user would interpret the information on screen. Prioritization of interactions, grouping icons, tracking overall interaction flows
+                                    (how many places might a user might wish to flag a component with a comment?). Created a tutorial project with systems to funnel users through interaction and track completion metrics.
+                                </li>
+                                <li>
+                                    <span class="entryName">UI Design</span> - I wove in design practices from Google, Microsoft, and Atlassian to ensure data is presented in a readable and familiar way. Our app is highly specialized, so every new feature
+                                    needed extra consideration to bridge internal convention and external sensibilities. Moreover, those information-heavy desktop features had to be convenient on mobile platforms.
+                                </li>
+                                <li>
+                                    <span class="entryName">Programming</span> - Being the sole developer on the client, I was responsible for a wide variety of software engineering tasks. Some data models were dictated by our backend developer(s), others
+                                    required fashioning from a collection of business requirements.
+                                </li>
+                                <li>
+                                    <span class="entryName">Technical Writing</span> - The Product team would prioritize which features or improvements were the major milestone to include in a given release. As mentioned above, I was tasked with writing
+                                    plan documents to cover implementation details and timelines to ensure our departments were on the same page.
+                                </li>
+                                <li>
+                                    <span class="entryName">Quality Assurance</span> - Before a given release, I was responsible for managing the QA process. I coordinated testcases for changes to the product, a series of automated regression tests,
+                                    coordination of team efforts on testing, and patches during the testing process.
+                                </li>
+                                <li>
+                                    <span class="entryName">Collaboration</span> - Teamwork took many forms over the years. When I initially joined, I worked under the original programmer for the Unity app. He handled the core systems and I focused on
+                                    supporting content improvments. When I took over for my predecessor, I had to handle the design meetings with Product and Management - raising concerns, offering alternative implementations, ensuring everyone is best
+                                    informed on our options. In 2025, I was responsible for a direct report, and it took time to work out how to reconcile our pace and strategic variances.
+                                </li>
+                            </ul>
+                            <p style="text-align: center">
+                                <a class="btn btn-primary" href="https://www.cadence.com/en_US/home/resources/datasheets/inspectar-augmented-reality-electronics-platform-ds.html" target="_blank" role="button">InspectAR Writeup</a>
+                            </p>
                         </div>
                     </div>
-                </section>
+                </div>
+            </section>
             <!-- Adknown-->
-                <section class="page-section card bg-light" id="adknown">
-                    <div class="container">
-                        <h2 class="section-heading text-center">Unity Developer - Adknown</h2>
-                        <div class="row">
-                            <div class="col-8">
-                                <h4 class="section-subheading text-muted">20+ shipped mobile games</h4>
-                                <p class="text-muted">Design/Development/Art/Marketing for a new mobile game every 2 weeks. I did it all.</p>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAdknown" aria-expanded="false" aria-controls="collapseAdknown">
-                                    More <i class="fas fa-angle-double-down ml-1"></i>
-                                </button>
-                            </div>
-                            <div class="col-4">
-                                <div style="display: flex; justify-content: center;  align-items: center; "><img class="rounded img-fluid" style="width: 100%; height: auto;" src="assets/img/portfolio/adknown-games-thumbnail.jpg" alt="" /></div>
-                            </div>
+            <section class="page-section card bg-light" id="adknown">
+                <div class="container">
+                    <h2 class="section-heading text-center">20+ shipped games - Adknown Inc.</h2>
+                    <div class="row">
+                        <div class="col-8 heading-desc">
+                            <h4 class="section-subheading text-muted">Unity Developer | 2019</h4>
+                            <p class="text-muted">A new mobile game every 2 weeks, published to Google Play and the Apple Appstore.</p>
+                            <p class="text-muted">Platforms: Android, iOS</p>
+                            <p class="text-muted" style="font-style: italic">C#, Unity3D, GIMP, Git, Audacity</p>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAdknown" aria-expanded="false" aria-controls="collapseAdknown">Summary <i class="fas fa-angle-double-down ml-1"></i></button>
+                            <!-- <a class="btn btn-outline-primary" href="/subpages/adknown.html">Full Writeup <i class="fas fa-angle-double-right ml-1"></i></a> -->
                         </div>
-                        
-                        <div class="collapse" id="collapseAdknown" data-parent="#portfolioAccordion">
-                            <br/>
-                            <div class="card card-body">
-                                <div style="width:60%; margin:auto; margin-bottom: 1rem;"><div class="video-container"><iframe src="https://www.youtube.com/embed/RYKJ196EZv0?rel=0" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe></div></div>
-                                <h4>Context</h4>
-                                <p>I worked at Adknown making games during 2019. Game developers there are responsible for developing and publishing a game every two weeks using tools and guidance from management.
-                                I made 22 games, publishing them on Android and iOS. I strived to develop for different genres to challenge myself. I also made a <a href="https://www.youtube.com/watch?v=T2lSZa1moF0" target="_blank">snapshot reel of the 22 games</a>.
-                                <h4>Responsiblities</h4>
-                                <p>
-                                <ul>
-                                    <li><span style="font-weight: bold">Design</span> - Concepting the game and mocking it up on paper for managerial approval.</li>
-                                    <li><span style="font-weight: bold">Programming</span> - Beyond a template structure to handle UI screens and save data, all gameplay was programmed by me. Game loop, balance, AI, progression, and mission objectives were developed and iterated on to be challenging and compelling.</li>
-                                    <li><span style="font-weight: bold">Art</span> - We had access to the Unity Asset Store, but were responsible for the implementation of all art. I did my own 3D modeling/rigging/texturing/animation, sometimes 2D art/animation, but regularly modified any art assets to support the game's theme and design.</li>
-                                    <li><span style="font-weight: bold">Sound</span> - Mostly the modification of sound effects/background music to keep things cohesive and punchy</li>
-                                    <li><span style="font-weight: bold">Publishing</span> - I created marketing materials, such as app store imagery and ASO-based copy, to help the game become successful organically.</li>
-                                    <li><span style="font-weight: bold">Teamwork</span> - Beyond design advice and programming assistance, I also helped keep my peers on track by coordinating and fulfilling some of the administrative publication steps.
-                                </ul>
-                                <p>As part of getting into InspectAR, I talked to them extensively about the level generation system to make fair and scaleable patterns that don't feel repetitious during play. The game also had a special shop design and missions system that promotes daily check-ins and difficulty customization. If you want to hear more, feel free to contact me!
-                                <p style="text-align:center;"><a class="btn btn-primary" href="https://www.youtube.com/watch?v=T2lSZa1moF0?rel=0" target="_blank" role="button">22 Game Demo Reel</a>
-                            </div>
+                        <div class="col-4">
+                            <div style="display: flex; justify-content: center; align-items: center"><img class="rounded img-fluid" style="width: 100%; height: auto" src="/assets/img/portfolio/adknown-games-thumbnail.jpg" alt="" /></div>
                         </div>
                     </div>
-                </section>
+
+                    <div class="collapse" id="collapseAdknown" data-parent="#portfolioAccordion">
+                        <br />
+                        <div class="card card-body">
+                            <div style="width: 60%; margin: auto; margin-bottom: 1rem">
+                                <div class="video-container"><iframe title="adknown reel" src="https://www.youtube.com/embed/RYKJ196EZv0?rel=0" allow="autoplay; encrypted-media;" allowfullscreen></iframe></div>
+                            </div>
+                            <h4 class="text-muted">Working at Adknown</h4>
+                            <p>
+                                Adknown is primarily an advertising agency, but boasted a small video game division while I worked there. Each game used a UI template (handling basic api calls such as managing save data or switching to a shop screen). The
+                                expectation was game design, progression, content, and publication were to be handled by us (ie. 4 developers, making one game each). In practice, even the art and audio had to be created and heavily modified to work in
+                                this context. Games had to be published to both storefronts within the ten business days. There were restrictions about making games unique from each other while all being sufficiently "action oriented". Beyond these rules,
+                                I pushed for unique genres and dynamic progression systems as a point of pride.
+                            </p>
+                            <h4>Highlights</h4>
+                            <ul>
+                                <li><span class="entryName">22 games in all</span> - I made a <a href="https://www.youtube.com/watch?v=T2lSZa1moF0" target="_blank">snapshot reel</a> to demo the games at a glance</li>
+                                <li>
+                                    <span class="entryName">Song Pong</span> - Art drawn from scratch in a vaporwave aesthetic, pushed for complex mission tracking such as note streaks and combo values to mimic genre conventions, included a daily check-in
+                                    system, balancing chords of notes to work flipped or opposing colors to increase replay value, sourced some of the music used from a local musician. Explaining this game in particular helped me get hired at InspectAR!
+                                </li>
+                                <li><span class="entryName">Let’s Get Kraken</span> - Art drawn from scratch, significant balance alterations available as shop items (such as number of tentacles or spawn rates), fair complexity in gameplay balance</li>
+                            </ul>
+                            <h4>Skills Demonstrated</h4>
+                            <ul>
+                                <li><span class="entryName">Design</span> - Concepting the game and mocking it up on paper for managerial approval.</li>
+                                <li>
+                                    <span class="entryName">Programming</span> - Beyond a template structure to handle UI screens and save data, all gameplay was programmed by me. Game loop, balance, AI, progression, and mission objectives were developed
+                                    and iterated on to be challenging and compelling.
+                                </li>
+                                <li>
+                                    <span class="entryName">Art</span> - We had access to the Unity Asset Store, but were responsible for the implementation of all art. I did my own 3D modeling/rigging/texturing/animation, sometimes 2D art/animation, but
+                                    regularly modified any art assets to support the game's theme and design.
+                                </li>
+                                <li><span class="entryName">Sound</span> - Mostly the modification of sound effects/background music to keep things cohesive and punchy</li>
+                                <li><span class="entryName">Publishing</span> - I created marketing materials, such as app store imagery and SSO-based copy, to help the game become successful organically.</li>
+                                <li><span class="entryName">Teamwork</span> - Beyond design advice and programming assistance, I also helped keep my peers on track by coordinating and fulfilling some of the administrative publication steps.</li>
+                            </ul>
+                            <p style="text-align: center"><a class="btn btn-primary" href="https://www.youtube.com/watch?v=T2lSZa1moF0?rel=0" target="_blank" role="button">22 Game Demo Reel</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- neocities-->
+            <section class="page-section card" id="neocities">
+                <div class="container">
+                    <h2 class="section-heading text-center">Personal Website</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <div style="display: flex; justify-content: center; align-items: center"><img class="rounded img-fluid" style="width: 100%; height: auto" src="assets/img/portfolio/tzNeo2.webp" alt="snapshot of my personal website" /></div>
+                        </div>
+                        <div class="col-8 heading-desc">
+                            <h4 class="section-subheading text-muted">Hobbyist Webmaster | 2023 - present</h4>
+                            <p class="text-muted">An experiment unto itself, but also a portfolio of other creative work.</p>
+                            <p class="text-muted">Platforms: Web</p>
+                            <p class="text-muted" style="font-style: italic">HTML, CSS, JQuery, and more</p>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseNeocities" aria-expanded="false" aria-controls="collapseNeocities">Summary <i class="fas fa-angle-double-down ml-1"></i></button>
+                            <!--<a class="btn btn-outline-primary" href="https://tiiimezombie.neocities.org/subpages/big/artist-statement.html">Full Writeup <i class="fas fa-angle-double-right ml-1"></i></a>-->
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseNeocities" data-parent="#portfolioAccordion">
+                        <br />
+                        <div class="card card-body">
+                            <div style="width: 60%; margin: auto; margin-bottom: 1rem">
+                                <div class="video-container"><img class="rounded img-fluid" style="width: 100%; height: auto" src="/assets/img/portfolio/forest-golf.jpeg" alt="" /></div>
+                            </div>
+                            <h4 class="text-muted">Web Design and Beyond</h4>
+                            <p>
+                                I have been editing html, css, markdown and the like for over a decade and a half on a hobby basis. <a href="https://tiiimezombie.neocities.org/" target="_blank">This website in particular</a> is a celebration of my
+                                interests and an assortment of programmatic experiments in JQuery. Visually, my website (first thumbnail) links to other projects, such as a mini-golf course I made in Golf With Your Friends (second thumbnail).
+                            </p>
+                            <h4>Highlights</h4>
+                            <ul>
+                                <li>
+                                    <span class="entryName">30+ Tabletop Roleplaying Games</span> - Since 2023, I have written several small self-contained play experiences, made available through my website. Many are game design experiments in conveying
+                                    unique hypothetical scenarios and then personalizing the experience through non-dice randomization. For example, one focuses on the growing strain of being a super hero protecting a city by asking the player to complete
+                                    physical exercises to resolve an encounter.
+                                </li>
+                                <li>
+                                    <span class="entryName">Individual Web Pages</span> - Incidentally, the page containing the list of ttrpg’s I have worked on itself has a complex json data structure to make adding new entries with tags and links an
+                                    absolute breeze. I’m fond of my tier list page for a similar reason. I’m also particularly proud of the current iteration of my home page: a variety of content to showcase the content within, with dozens of calls to
+                                    action, and a restrained collection of content to ensure a sensible load time.
+                                </li>
+                            </ul>
+                            <h4>Skills Demonstrated</h4>
+                            <ul>
+                                <li>
+                                    <span class="entryName">Design</span> - The main page has gone through several iterations, trying to balance visual appeal, retention, load times. Other pages have pulled layout philosophies from the most addicting
+                                    websites of my youth.
+                                </li>
+                                <li><span class="entryName">Programming</span> - The website uses primarily a mix of html and jquery with css styling.</li>
+                                <li>
+                                    <span class="entryName">Technical Writing</span> - Several of the tabletop role playing games I have written were written under a word count restrictions, necessitating a careful blend of descriptors and ruling text.
+                                </li>
+                            </ul>
+                            <p style="text-align: center"><a class="btn btn-primary" href="https://tiiimezombie.neocities.org/" target="_blank" role="button">Personal Website Link</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- Sheridan-->
-                <section class="page-section card" id="sheridan">
-                    <div class="container">
-                        <h2 class="section-heading text-center">Student - Sheridan College</h2>
-                        <div class="row">
-                            <div class="col-4">
-                                <div style="display: flex; justify-content: center;  align-items: center; "><img class="rounded img-fluid" style="width: 100%; height: auto;" src="assets/img/portfolio/godsend-thumbnail.jpg" alt="" /></div>
-                            </div>
-                            <div class="col-8">
-                                <h4 class="section-subheading text-muted">Bachelor of Game Design</h4>
-                                <p class="text-muted">A 4 year program on the design and creation of games. The picture is of my final year capstone project that my team and I demoed at the national expo EGLX.</p>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSheridan" aria-expanded="false" aria-controls="collapseSheridan">
-                                    More <i class="fas fa-angle-double-down ml-1"></i>
-                                </button>
-                            </div>
+            <section class="page-section card bg-light" id="sheridan">
+                <div class="container">
+                    <h2 class="section-heading text-center">Bachelor of Game Design - Sheridan College</h2>
+                    <div class="row">
+                        <div class="col-8 heading-desc">
+                            <h4 class="section-subheading text-muted">Student | 2014 - 2018</h4>
+                            <p class="text-muted">Formal education in relevant field. Made several games, but it's the underlying skills that I boast about.</p>
+                            <p class="text-muted">Platforms: Several</p>
+                            <p class="text-muted" style="font-style: italic">C#, Unity3D, GIMP, Audacity, Git, Blender, and more</p>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSheridan" aria-expanded="false" aria-controls="collapseSheridan">Summary <i class="fas fa-angle-double-down ml-1"></i></button>
                         </div>
-                        <div class="collapse" id="collapseSheridan" data-parent="#portfolioAccordion">
-                            <br/>
-                            <div class="card card-body">
-                                <div style="width:60%; margin:auto; margin-bottom: 1rem;"><div class="video-container"><iframe src="https://www.youtube.com/embed/yvFuj9-LQyw?rel=0" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe></div></div>
-                                <h4>Context</h4>
-                                <h4 class="section-subheading text-muted">Godsend</h4>
-                                <p><a href="https://patchwork-games.itch.io/godsend">Godsend</a> was an action platformer about possessing creatures, fighting them and completing objectives under a time limit.
-                                I was part of a team of 7, and primarily programmed the UI and AI.
-                                <ul>
-                                    <li>Design - Responsible for the AI awareness/traveral/combat, scoring system, game loop</li>
-                                    <li>Programming - AI uses their abilities effectively close and at range, and have an awareness of the player character based on their mutual aggression levels</li>
-                                </ul>
-                                <h4 class="section-subheading text-muted">Bachelor of Game Design</h4>
-                                <p>A 4 year program featuring many aspects of game development (game design, level design, art, programming, sound, team management, and more).
-                                <p style="text-align:center;"><a class="btn btn-primary" href="https://patchwork-games.itch.io/godsend" target="_blank" role="button">Godsend Store Link</a>
-                            </div>
-                        </div>                   
+                        <div class="col-4">
+                            <div style="display: flex; justify-content: center; align-items: center"><img class="rounded img-fluid" style="width: 100%; height: auto" src="assets/img/portfolio/godsend-thumbnail.jpg" alt="" /></div>
+                        </div>
                     </div>
-                </section>
+                    <div class="collapse" id="collapseSheridan" data-parent="#portfolioAccordion">
+                        <br />
+                        <div class="card card-body">
+                            <div style="width: 60%; margin: auto; margin-bottom: 1rem">
+                                <div class="video-container"><iframe title="godsend gameplay" src="https://www.youtube.com/embed/yvFuj9-LQyw?rel=0" allow="autoplay; encrypted-media;" allowfullscreen></iframe></div>
+                            </div>
+                            <h4 class="section-subheading text-muted">A Bachelor Program About Video Games</h4>
+                            <p>A 4 year program featuring many aspects of game development (game design, level design, art, programming, sound, team management, and more).</p>
+                            <h4>Highlights</h4>
+                            <ul>
+                                <li>
+                                    <span class="entryName">Godsend</span> - an <a href="https://patchwork-games.itch.io/godsend" target="_blank">action platformer</a> about possessing creatures, fighting them and completing objectives under a time limit.
+                                    We showed our game off the national expo EGLX. I primarily programmed the UI and AI.
+                                </li>
+                                <li><span class="entryName">A Simple Esc Room</span> - A <a href="https://devtimezombie.itch.io/simple-esc-room" target="_blank">3d point and click title</a> boasting my puzzle design and coding expertise.</li>
+                                <li><span class="entryName">UFO Repulsion</span> - A small arcade style game eventually published to the Google Play store.</li>
+                            </ul>
+
+                            <h4>Skills Demonstrated</h4>
+                            <ul>
+                                <li><span class="entryName">Design</span> - For Godsend, I was responsible for the AI awareness/traveral/combat, scoring system, and overall game loop. For A Simple Esc Room, I designed the puzzle(s).</li>
+                                <li>
+                                    <span class="entryName">Programming</span> - In Godsend, AI characters use their abilities effectively close and at range, and have an awareness of the player character based on their mutual aggression levels. For A
+                                    Simple Esc Room, I think I programmed everything but the flickering lights.
+                                </li>
+                                <li>
+                                    <span class="entryName">Teamwork</span> - A significant number of projects were in teams. I did a significant amount of programming, but had to work closely with artists and other team members to maximize the quality of
+                                    our games.
+                                </li>
+                                <li>
+                                    <span class="entryName">Creative Problem Solving</span> - Game design inherently requires creative problem solving. That said, I took several electives focusing on facilitation of divergent and convergent thinking
+                                    strategy meetings.
+                                </li>
+                            </ul>
+                            <p style="text-align: center"><a class="btn btn-primary" href="https://patchwork-games.itch.io/godsend" target="_blank" role="button">Godsend Store Link</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- About-->
-                <section class="page-section bg-light" id="about">
-                    <div class="container">
-                        <h2 class="section-heading text-center">About Me</h2>
-                        <div class="row">
-                            <div class="col-8">
-                                <h4 class="section-subheading text-muted">Efficiency & Communication</h4>
-                                <p class="text-muted">I'm an Engineer. That means I solve problems.</p>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="false" aria-controls="collapseExample">
-                                    More <i class="fas fa-angle-double-down ml-1"></i>
-                                </button>
-                            </div>
-                            <div class="col-4">
-                                <img class="mx-auto rounded-circle" width=150 src="assets/img/team/dan.jpg" alt="" />
-                            </div>
+            <section class="page-section card" id="about">
+                <div class="container">
+                    <h2 class="section-heading text-center">Meet the Engineer</h2>
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="mx-auto rounded-circle" width="150" src="assets/img/team/dan.jpg" alt="" />
                         </div>
-                        
-                        <div class="collapse" id="collapseAbout" data-parent="#portfolioAccordion">
-                            <br/>
-                            <div class="card card-body">
-                                <div style="width:60%; margin:auto; margin-bottom: 1rem;"><div class="video-container"><iframe src="https://www.youtube.com/embed/xHtVEH_JJoE?rel=0" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe></div></div>
-                                <h4>Practical Problems</h4>
-                                <p> I'm driven to dissect micro-systemic problems and transplant in solutions. At every job I've ever had, I have recorded the inefficiencies that I or my coworkers face, devise solutions, and implement them (with managerial approval).
-                                I pay attention to how a department can improve their procedures and better support the staff. In the past, I've made proposals for new job positions, internal tools, administrative procedures, and more. I'm looking for companies that appreciate the care I put in.
-                                <h4>Meet the dev!</h4>
-                                <p>Hailing for Kitchener, Ontario; I moved to St. John's, Newfoundland in 2020 for my job at Cadence. I'm always making things - video games, tabletop rpg's, Minecraft contraptions, and the like. I very much like goofs, so there's hidden references within my site (if you know what to look for). I'm on Bluesky these days, so follow me there for more regular updates.
-                                <p style="text-align:center;">Other Things I've Made: <a class="btn btn-primary" href="https://www.youtube.com/playlist?list=PLWUSVz7plJ302a6EqeLf-6OsCrq11mzh_" target="_blank" role="button">Playlist</a> <a class="btn btn-primary" href="overview.html" target="_blank" role="button">Overview</a>
-                            </div>
+                        <div class="col-9 heading-desc">
+                            <h4 class="section-subheading text-muted">Many Hats | Many Years</h4>
+                            <p class="text-muted">A special interest in operational efficiency and comprehensive solutions. Broadly speaking, I solve problems.</p>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="false" aria-controls="collapseExample">More <i class="fas fa-angle-double-down ml-1"></i></button>
                         </div>
                     </div>
-                </section>
+
+                    <div class="collapse" id="collapseAbout" data-parent="#portfolioAccordion">
+                        <br />
+                        <div class="card card-body">
+                            <div style="width: 60%; margin: auto; margin-bottom: 1rem">
+                                <div class="video-container"><iframe title="cat licking ice" src="https://www.youtube.com/embed/xHtVEH_JJoE?rel=0" allow="autoplay; encrypted-media;" allowfullscreen></iframe></div>
+                            </div>
+                            <h4>Practical Problems</h4>
+                            <p>
+                                I'm driven to dissect micro-systemic problems and transplant in solutions. At every job I've ever had, I have recorded the inefficiencies that I or my coworkers face, devise solutions, and implement them (with managerial
+                                approval). I pay attention to how a department can improve their procedures and better support the staff. In the past, I've made proposals for new job positions, internal tools, administrative procedures, and more. I'm
+                                looking for companies that appreciate the care I put in.
+                            </p>
+
+                            <h4>Source</h4>
+                            <p>
+                                In Toronto after at time in St. John's, Newfoundland for my last job. I'm always making things - video games, tabletop rpg's, Minecraft contraptions, and the like. I very much like goofs, so there's hidden references within
+                                my site (if you know what to look for). I'm on Bluesky these days, so follow me there for more regular updates.
+                            </p>
+                            <p style="text-align: center">
+                                Other Things I've Made: <a class="btn btn-primary" href="https://www.youtube.com/playlist?list=PLWUSVz7plJ302a6EqeLf-6OsCrq11mzh_" target="_blank" role="button">Youtube Playlist</a>
+                                <a class="btn btn-primary" href="/subpages/overview.html" target="_blank" role="button">Gif Overview</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
         <!-- Contact-->
-            <section class="page-section" id="contact">
-                <div class="container">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Contact Me</h2>
-                        <h3 class="section-subheading text-muted">I'm always happy to talk opportunties.</h3>
-                        <a class="btn btn-primary" href="mailto:dpraymayer@gmail.com">Email me directly</a><br><br>
-                        
-                        <span class="section-subheading text-muted">Or click the links down below.</span>
-                    </div>
-                    <!--<form id="contactForm" name="sentMessage" novalidate="novalidate">
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Me</h2>
+                    <h3 class="section-subheading text-light">I'm always happy to talk opportunties.</h3>
+                    <a class="btn btn-primary" href="mailto:vpraymayer@gmail.com">Email me directly</a><br /><br />
+
+                    <span class="section-subheading text-light">Or click the links down below.</span>
+                </div>
+                <!--<form id="contactForm" name="sentMessage" novalidate="novalidate">
                         <div class="row align-items-stretch mb-4">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -241,141 +382,62 @@
                             <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
                         </div>
                     </form>-->
-                </div>
-            </section>
+            </div>
+        </section>
         <!-- Footer-->
-            <footer class="footer py-4">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 text-lg-left">Copyright <a href="secretcontent.html">©</a> Daniel Praymayer 2020 - Present</div>
-                        <div class="col-lg-4 my-3 my-lg-0"></div>
-                        <div class="col-lg-4 text-lg-right">
-                            <a class="btn btn-dark btn-social mx-2" data-clipboard-target="dpraymayer@gmail.com" data-toggle="tooltip" data-placement="top" title="Copy 'dpraymayer@gmail.com' to clipboard" data-content="Vivamus sagittis"><i class="fa fa-envelope" style="color:white"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/danielpraymayer/"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://devtimezombie.itch.io/"><i class="fab fa-itch-io"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/devtimezombie/CodeSamples"><i class="fab fa-github"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://play.google.com/store/apps/developer?id=Daniel+Praymayer"><i class="fab fa-android"></i></a>
-                        </div>
-                        <!--<div class="col-lg-4 text-lg-right">
-                            <a class="mr-3" href="#!">Privacy Policy</a>
-                            <a href="#!">Terms of Use</a>
-                        </div>-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright <a href="/subpages/secretcontent.html">©</a> Vale Praymayer 2020 - Present</div>
+                    <div class="col-lg-4 my-3 my-lg-0"></div>
+                    <div class="col-lg-4 text-lg-right">
+                        <button class="btn btn-dark btn-social mx-2 clippable" data-clipboard-text="vpraymayer@gmail.com" data-toggle="tooltip" data-placement="top" title="Copy 'vpraymayer@gmail.com' to clipboard">
+                            <i class="fa fa-envelope" style="color: white"></i>
+                        </button>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/danielpraymayer/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://devtimezombie.itch.io/"><i class="fab fa-itch-io"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/devtimezombie/CodeSamples"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://play.google.com/store/apps/developer?id=Daniel+Praymayer"><i class="fab fa-android"></i></a>
                     </div>
                 </div>
-            </footer>
-        
-        <!-- Alert -->
-        <div class="alert alert-info alert-dismissible fade show" role="alert" style="position: fixed; bottom: 0;  right: 15px;">
-          <strong>Did you know?</strong> I also make games as a hobby!
-          <br>Check out my <a href="https://tiiimezombie.neocities.org" target="_blank" style="color:blue;">personal website</a> for TTRPGs, art and more.
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
+            </div>
+        </footer>
 
-        <!-- Portfolio Modals-->
-            <!-- Modal 1--
-            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-                                        <!-- Project Details Go Here--
-                                        <h2 class="text-uppercase">Project Name</h2>
-                                        <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
-                                        <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                        <ul class="list-inline">
-                                            <li>Date: January 2020</li>
-                                            <li>Client: Threads</li>
-                                            <li>Category: Illustration</li>
-                                        </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                            <i class="fas fa-times mr-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal 2--
-            <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-                                        <!-- Project Details Go Here--
-                                        <h2 class="text-uppercase">Project Name</h2>
-                                        <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                        <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                        <ul class="list-inline">
-                                            <li>Date: January 2020</li>
-                                            <li>Client: Explore</li>
-                                            <li>Category: Graphic Design</li>
-                                        </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                            <i class="fas fa-times mr-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal 3--
-            <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-                                        <!-- Project Details Go Here--
-                                        <h2 class="text-uppercase">Project Name</h2>
-                                        <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                                        <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                        <ul class="list-inline">
-                                            <li>Date: January 2020</li>
-                                            <li>Client: Finish</li>
-                                            <li>Category: Identity</li>
-                                        </ul>
-                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                            <i class="fas fa-times mr-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
+        <!-- Alert -->
+        <!--        <div class="alert alert-info alert-dismissible fade show" role="alert" style="position: fixed; bottom: 0; right: 15px">
+            <strong>Did you know?</strong> I also make games as a hobby! <br />Check out my <a href="https://tiiimezombie.neocities.org" target="_blank" style="color: blue">personal website</a> for TTRPGs, art and more.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>-->
 
         <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/js/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <!-- <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>-->
+        <script src="/js/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="dist/clipboard.min.js"></script>
-        <script>$(document).ready(function(){  $('[data-toggle="tooltip"]').tooltip();});</script>
+        <script src="/js/scripts.js"></script>
+        <script src="/js/clipboard.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+
+                var clipboard = new ClipboardJS(".clippable");
+
+                clipboard.on("success", function (e) {
+                    console.info("Action:", e.action);
+                    console.info("Text:", e.text);
+                    console.info("Trigger:", e.trigger);
+
+                    e.clearSelection();
+                });
+
+                clipboard.on("error", function (e) {
+                    console.error("Action:", e.action);
+                    console.error("Trigger:", e.trigger);
+                });
+            });
+        </script>
     </body>
 </html>

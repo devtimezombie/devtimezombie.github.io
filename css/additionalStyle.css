@@ -1,15 +1,34 @@
 .video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+li .entryName {
+	font-weight: bold;
+}
+.heading-desc p {
+	margin-bottom: 8px;
+}
+header.masthead-alt {
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+}
+header.masthead-altA {
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+	/*background-image: url("/assets/img/portfolio/adknown-games-thumbnail.jpg");*/
+	background-image: none;
 }
