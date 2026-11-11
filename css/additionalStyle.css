@@ -23,12 +23,24 @@ li .entryName {
 	margin-bottom: 8px;
 }
 header.masthead-alt {
-	padding-top: 6rem;
-	padding-bottom: 3rem;
-}
-header.masthead-altA {
-	padding-top: 6rem;
-	padding-bottom: 3rem;
-	/*background-image: url("/assets/img/portfolio/adknown-games-thumbnail.jpg");*/
+	padding-top: 12rem;
+	padding-bottom: 6rem;
 	background-image: none;
+	background-color: rgba(33, 37, 41, 0.7);
+}
+.backImgAdknown {
+	background-image: url("/assets/img/adknown/allmygames.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	opacity: 1;
+	background-color: aqua;
+}
+.backImgInspectar {
+	background-image: url("/assets/img/inspectar/inspectar-demo.gif");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	opacity: 1;
+	background-color: aqua;
 }
