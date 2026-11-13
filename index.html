@@ -208,7 +208,7 @@
                             <p class="text-muted">Platforms: Web</p>
                             <p class="text-muted" style="font-style: italic">HTML, CSS, JQuery, and more</p>
                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseNeocities" aria-expanded="false" aria-controls="collapseNeocities">Summary <i class="fas fa-angle-double-down ml-1"></i></button>
-                            <!--<a class="btn btn-outline-primary" href="https://tiiimezombie.neocities.org/subpages/big/artist-statement.html">Full Writeup <i class="fas fa-angle-double-right ml-1"></i></a>-->
+                            <a class="btn btn-outline-primary" href="https://tiiimezombie.neocities.org/subpages/big/artistStatement.html">Full Writeup </a>
                         </div>
                     </div>
                     <div class="collapse" id="collapseNeocities" data-parent="#portfolioAccordion">
@@ -312,7 +312,7 @@
                     <h2 class="section-heading text-center">Meet the Engineer</h2>
                     <div class="row">
                         <div class="col-3">
-                            <img class="mx-auto rounded-circle" width="150" src="assets/img/team/dan.jpg" alt="" />
+                            <img class="mx-auto rounded-circle" width="150" src="assets/img/team/vale.jpg" alt="" />
                         </div>
                         <div class="col-9 heading-desc">
                             <h4 class="section-subheading text-muted">Many Hats | Many Years</h4>
@@ -422,6 +422,9 @@
         <script>
             $(document).ready(function () {
                 $('[data-toggle="tooltip"]').tooltip();
+                $('a[href*="http"]').each(function () {
+                    $(this).html($(this).text() + " <i class='fas fa-external-link-alt'></i>");
+                });
 
                 var clipboard = new ClipboardJS(".clippable");
 

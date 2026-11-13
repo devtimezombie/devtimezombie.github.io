@@ -26,6 +26,14 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.html">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Navigation </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item js-scroll-trigger" href="#context">Context</a>
+                                <a class="dropdown-item js-scroll-trigger" href="#showcase">Highlighted Games</a>
+                                <a class="dropdown-item js-scroll-trigger" href="#gamelist">Full Game Catalog</a>
+                            </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/subpages/resume.html">Resume</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
@@ -42,7 +50,7 @@
         </div>
         <!-- Header-->
         <div class="accordion" id="portfolioAccordion" data-spy="scroll">
-            <section class="page-section card bg-light" id="overview">
+            <section class="page-section card bg-light" id="context">
                 <div class="container">
                     <h4 class="section-subheading text-muted">The Work Environment</h4>
                     <div class="row">
@@ -81,7 +89,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page-section card" id="adknown">
+            <section class="page-section card" id="showcase">
                 <div class="container">
                     <div class="row">
                         <div class="col heading-desc">
@@ -322,7 +330,7 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Enjoyed?</h2>
                     <span class="section-subheading text-light">Let me know using the link here or in the footer.</span><br /><br />
-                    <a class="btn btn-primary" href="mailto:dpraymayer@gmail.com">Email me directly</a><br />
+                    <a class="btn btn-primary" href="mailto:vpraymayer@gmail.com">Email me directly</a><br />
                 </div>
             </div>
         </section>
@@ -356,6 +364,9 @@
         <script>
             $(document).ready(function () {
                 $('[data-toggle="tooltip"]').tooltip();
+                $('a[href*="http"]').each(function () {
+                    $(this).html($(this).text() + " <i class='fas fa-external-link-alt'></i>");
+                });
 
                 var clipboard = new ClipboardJS(".clippable");
 
